@@ -27,6 +27,6 @@ jobs:
       with:
         python-version: '3.7'
     - name: install-dependencies
-      run: pip install flake8
-    - run: flake8
+      run: pip install black
+    - run: black
       working-directory: app
