@@ -12,7 +12,7 @@ jobs:
 
     - name: Set variables
       run: |
-        VER=$(cat VERSION)
+        VER=$(cat ./VERSION)
         echo "VERSION=$VER" >> $GITHUB_ENV
 
     - name: Checkout code
